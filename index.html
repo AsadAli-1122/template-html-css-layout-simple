@@ -1,0 +1,492 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    /* border: 1px solid black; */
+}
+.sec-1{
+    width: 100%;
+    display: flex;
+    height: 800px;
+}
+.sec-1-1{
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 40px;
+    text-align: center;
+}
+.sec-1-1>h1{
+    margin-bottom: 150px;
+}
+.sec-1-1>a{
+    text-decoration: none;
+    color: #fff;
+    /* background-color: lightgreen; */
+    width: 100%;
+    padding: 15px;
+}
+.sec-1-1>a:hover{
+    background-color: rgb(148, 184, 124);
+}
+.sec-1-1>a:active{
+    background-color: rgb(116, 116, 116);
+}
+.sec-1-2{
+    width: 50%;
+    background-color: rgb(97, 158, 167);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-1-2>img{
+    border-radius: 50%;
+    width: 250px;
+}
+.sec-1-2>p{
+    width: 85%;
+}
+
+.sec-2{
+    width: 100%;
+    display: flex;
+    height: 800px;
+}
+.sec-2-1{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-2-1>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.sec-2-1>div>img{
+    width: 50%;
+}
+.sec-2-2{
+    width: 50%;
+    background-color: rgb(104, 125, 248);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+table{
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    /* height: 500px; */
+}
+table tr{
+    height: 50px;
+}
+table tr:nth-child(even){
+    background-color: #fff;
+    color: black;
+}
+table tr th{
+    text-align: left;
+}
+table tr td{
+    padding: 10px;
+    /* border: 1px solid lightgray; */
+}
+
+.sec-3{
+    width: 100%;
+    display: flex;
+    height: 800px;
+}
+.sec-3-1{
+    width: 50%;
+    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-3-1>h1{
+    margin-bottom: 200px;
+}
+.sec-3-2{
+    width: 50%;
+    background-color: rgb(29, 150, 124);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+}
+form{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 400px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form input{
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+form button{
+    padding: 10px;
+    background-color: rgb(29, 150, 124);
+    color: white;
+    border: none;
+    border-radius: 0;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 0px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer>a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1023px) and (min-width:481px) {
+
+.sec-1{
+    width: 100%;
+    display: flex;
+    height: 1600px;
+    flex-direction: column;
+}
+.sec-1-1{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 40px;
+}
+.sec-1-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(97, 158, 167);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}   
+.sec-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
+    flex-wrap: wrap;
+}
+.sec-2-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-2-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(104, 125, 248);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+    flex-wrap: wrap;
+}
+.sec-2-1>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sec-2-1>div>img{
+    width: 250px;
+    margin: 15px;
+}
+
+.sec-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
+}
+.sec-3-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-3-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(29, 150, 124);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .sec-1{
+    width: 100%;
+    display: flex;
+    height: 1600px;
+    flex-direction: column;
+}
+.sec-1-1{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 10px;
+}
+.sec-1-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(97, 158, 167);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}   
+.sec-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
+    flex-wrap: wrap;
+}
+.sec-2-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-2-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(104, 125, 248);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+    flex-wrap: wrap;
+}
+.sec-2-1>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sec-2-1>div>img{
+    width: 100%;
+    margin: 0;
+}
+
+.sec-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
+}
+.sec-3-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.sec-3-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(29, 150, 124);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+}   
+.none{
+    display: none;
+}
+.sec-3-2{
+    width: 100%;
+    background-color: rgb(29, 150, 124);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 10px;
+}
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="sec-1">
+        <div class="sec-1-1" id="home">
+            <h1>My Logo</h1>
+            <a href="#home">Home</a>
+            <a href="#my-work">My Work</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="sec-1-2">
+            <h1>About Me</h1>
+            <img src="imgs/avatar3.png" alt="avatar3"><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam saepe eum, placeat id, tempore eligendi cupiditate fuga dolor voluptate iure doloribus provident veniam nihil atque reiciendis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod in id saepe voluptate praesentium ipsam asperiores architecto porro accusantium ex molestiae.</p>
+        </div>
+    </div>
+    <div class="sec-2">
+        <div class="sec-2-1" id="my-work">
+            <h1>My Work</h1>
+            <p>Some of my latest projects.</p>
+            <div>
+                <img src="imgs/coffee.jpg" alt="coffee">
+                <img src="imgs/workbench.jpg" alt="workbench">
+                <img src="imgs/workbench.jpg" alt="workbench" class="none">
+                <img src="imgs/coffee.jpg" alt="coffee" class="none">
+                <img src="imgs/sound.jpg" alt="sound"class="none">
+                <img src="imgs/workbench.jpg" alt="workbench"class="none">
+            </div>
+            <p>Just call me awesome.</p>
+        </div>
+        <div class="sec-2-2" id="resume">
+            <h1>Resume</h1>
+            <p>A draft from my CV</p>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Title</th>
+                    <th>Where</th>
+                </tr>
+                <tr>
+                    <td>2012- <br>2016</td>
+                    <td>The rest is history..</td>
+                    <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                    <td>2009- <br>2012</td>
+                    <td>Started my own <br>company</td>
+                    <td>My Garage</td>
+                </tr>
+                <tr>
+                    <td>2008- <br>2009</td>
+                    <td>Standard worked for Lorem</td>
+                    <td>London, UK</td>
+                </tr>
+                <tr>
+                    <td>2005- <br>2008</td>
+                    <td>Degree in Bachelor of <br>Design</td>
+                    <td>Harvard, USA</td>
+                </tr>
+                <tr>
+                    <td>2002- <br>2005</td>
+                    <td>Degree in Bachelor of <br>Business</td>
+                    <td>RMIIT University, <br>Melbourne, Australia</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="sec-3">
+        <div class="sec-3-1">
+            <h1>Swim By</h1>
+            <p>..for a cup of coffee, or whatever.</p>
+            <p>Chicago, US</p>
+            <p>+00 1515151515</p>
+            <p>test@test.com</p>
+        </div>
+        <div class="sec-3-2" id="contact">
+            <h1>Contact</h1>
+            <p>GET IN TOUCH</p>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="message">Message</label><br>
+                <input type="text" name="message" id="message" required><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Powered by <a href="">w3.css</a></p>
+    </footer>
+</body>
+</html>
